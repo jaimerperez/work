@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "parcel --port 3000 src/index.html",
-    "build": "parcel build src/index.html --public-url /tarea -d build",
+    "build": "parcel build src/index.html --public-url /work -d build",
     "deploy": "gh-pages -d build",
     "clean": "rm -rf package-lock.json dist .cache build",
     "test": "echo \"Error: no test specified\" && exit 1"
